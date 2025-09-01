@@ -1,6 +1,6 @@
 
-        // alert(document.documentElement.getAttribute("lang"));
-        // alert(document.head.firstElementChild.innerHTML);
+        alert(document.documentElement.getAttribute("lang"));
+        alert(document.head.firstElementChild.innerHTML);
         document.body.style.backgroundColor = "green";
         const body = document.getElementById("gp");
         body.style.color = "blue"
@@ -26,3 +26,20 @@
             t[i].style.height = "2px";
             t[i].style.border = "none"; 
         }
+
+const p = document.getElementsByTagName("h6")
+    for (let i = 0; i < p.length; i++){
+        p[i].style.color = "blue"
+        p[i].style.fontSize = "15px"
+        p[i].style.marginTop = "20px"
+    } 
+
+    const b = document.getElementsByTagName("h2")
+    for ( let i = 0; i < b.length; i++){
+        b[i].style.color = "gray"
+    }
+
+    const x = 5;
+    const y = 6;
+    const sum =x-y;
+    console.log(sum)
