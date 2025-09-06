@@ -1,1 +1,48 @@
 learning dom manipulation
+
+      /*   */
+      /**
+ * The Calculator class provides basic math operations.
+ */
+public class Calculator {
+
+    /**
+     * Adds two numbers together.
+     * @param a the first number
+     * @param b the second number
+     * @return the sum of a and b
+     */
+    public int add(int a, int b) {
+        return a + b;
+    }
+
+    /**
+     * Subtracts one number from another.
+     * @param a the first number
+     * @param b the number to subtract
+     * @return the result of a - b
+     */
+    public int subtract(int a, int b) {
+        return a - b;
+    }
+}
+
+Special Tags in Javadoc
+
+@param → describes a method parameter
+
+@return → describes what the method returns
+
+@throws → describes exceptions that the method might throw
+
+@author → author of the code
+
+@version → version info
+
+⚡ In short:
+
+// → single line
+
+/* ... */ → multi-line
+
+/** ... */ → Javadoc (for documentation, can generate HTML docs)
