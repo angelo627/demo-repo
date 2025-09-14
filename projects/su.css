@@ -80,7 +80,9 @@ h1{
     flex-direction: row;
     margin-top: 20px;
     margin-right:240px;  
+    justify-content: flex-start;
     gap:5px;   
+    /* width:100%; */
 }
 
 .hr{
